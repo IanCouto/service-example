@@ -6,7 +6,7 @@ export default class Analytics extends AppClient {
   }
 
   public async getLiveUsers(): Promise<LiveUsersProduct[]> {
-    return this.http.get('_v/live-products')
+    return this.http.get('_v/live-products/')
   }
 }
 
