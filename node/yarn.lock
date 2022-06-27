@@ -1665,6 +1665,14 @@ lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
+"logicinfopartnerbr.events-example@http://logicinfopartnerbr.vtexassets.com/_v/public/typings/v1/logicinfopartnerbr.events-example@0.0.3-beta.0/public/_types/react":
+  version "0.0.0"
+  resolved "http://logicinfopartnerbr.vtexassets.com/_v/public/typings/v1/logicinfopartnerbr.events-example@0.0.3-beta.0/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
+
+"logicinfopartnerbr.service-example@https://ian--logicinfopartnerbr.myvtex.com/_v/private/typings/linked/v1/logicinfopartnerbr.service-example@0.0.4-beta.0+build1656001668/public/@types/logicinfopartnerbr.service-example":
+  version "0.0.4-beta.0"
+  resolved "https://ian--logicinfopartnerbr.myvtex.com/_v/private/typings/linked/v1/logicinfopartnerbr.service-example@0.0.4-beta.0+build1656001668/public/@types/logicinfopartnerbr.service-example#3c3eab91e0de21de2eb789f237ee29b0508c0beb"
+
 long@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/long/-/long-2.4.0.tgz#9fa180bb1d9500cdc29c4156766a1995e1f4524f"

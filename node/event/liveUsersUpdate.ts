@@ -1,5 +1,6 @@
-import { Clients } from './../clients/index'
 import { EventContext } from '@vtex/api'
+
+import { Clients } from '../clients/index'
 import { COURSE_ENTITY } from '../utils/constants'
 
 export async function updateLiveUsers(ctx: EventContext<Clients>) {
@@ -14,7 +15,7 @@ export async function updateLiveUsers(ctx: EventContext<Clients>) {
           count: number
         }>({
           dataEntity: COURSE_ENTITY,
-          fields: ['id', 'slug', 'count'],
+          fields: ['slug', 'count', 'id'],
           pagination: {
             page: 1,
             pageSize: 1,
@@ -33,8 +34,9 @@ export async function updateLiveUsers(ctx: EventContext<Clients>) {
               count: liveUsers,
             },
             id: savedProduct?.id,
+            schema: 'v1',
           })
-          .then((res) => {
+          .then(res => {
             console.log(res)
             return res
           })

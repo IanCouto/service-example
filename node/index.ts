@@ -1,4 +1,3 @@
-// node/index.ts
 import {
   LRUCache,
   Service,
@@ -7,6 +6,7 @@ import {
   RecorderState,
   method,
 } from '@vtex/api'
+
 import { Clients } from './clients'
 import { productList } from './resolvers/products'
 import { updateLiveUsers } from './event/liveUsersUpdate'

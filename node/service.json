@@ -7,7 +7,7 @@
   "workers": 4,
   "events": {
     "liveUsersUpdate": {
-      "sender": "vtex.events-example",
+      "sender": "logicinfopartnerbr.events-example",
       "keys": ["send-event"]
     }
   },

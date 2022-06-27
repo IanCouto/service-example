@@ -8,6 +8,8 @@
     "@vtex/api": "6.45.12",
     "eslint": "^6.3.0",
     "eslint-config-vtex": "^11.0.0",
+    "logicinfopartnerbr.events-example": "http://logicinfopartnerbr.vtexassets.com/_v/public/typings/v1/logicinfopartnerbr.events-example@0.0.3-beta.0/public/_types/react",
+    "logicinfopartnerbr.service-example": "https://ian--logicinfopartnerbr.myvtex.com/_v/private/typings/linked/v1/logicinfopartnerbr.service-example@0.0.4-beta.0+build1656001668/public/@types/logicinfopartnerbr.service-example",
     "prettier": "^1.18.2",
     "typescript": "3.9.7"
   },

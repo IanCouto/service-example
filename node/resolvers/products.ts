@@ -1,4 +1,3 @@
-// node/resolvers/product.ts
 import { COURSE_ENTITY } from '../utils/constants'
 
 export const productList = async (
@@ -9,7 +8,7 @@ export const productList = async (
   masterdata
     .scrollDocuments({
       dataEntity: COURSE_ENTITY,
-      fields: ['slug','count'],
+      fields: ['count', 'slug'],
       schema: 'v1',
       size: topN,
       sort: `count DESC`,
